@@ -420,3 +420,313 @@ body {
   font-size: 40px;
   margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+
+  .header {
+    flex-direction: column;
+    padding: 15px 20px;
+    gap: 15px;
+  }
+
+  .logo img {
+    height: 50px;
+  }
+
+  .logo h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+  }
+
+  .hero {
+    padding: 60px 15px;
+  }
+
+  .hero h2 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .featured,
+  .why-us,
+  .categories,
+  .products,
+  .offers,
+  .buying-info,
+  .accessories,
+  .about-section,
+  .values,
+  .mission-vision,
+  .contact-info,
+  .contact-form,
+  .location {
+    padding: 30px 20px;
+  }
+
+  .category-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category-grid a,
+  .category-item {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .carousel {
+    height: auto;
+    padding: 40px 10px;
+  }
+
+  .slide img {
+    height: 200px;
+  }
+
+  .slide h1 {
+    font-size: 24px;
+  }
+
+  .slide p {
+    font-size: 16px;
+  }
+
+  .page-title h2 {
+    font-size: 28px;
+  }
+
+  .social-links {
+    flex-wrap: wrap;
+  }
+}
+/* Small phones */
+@media (max-width: 480px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  .header {
+    flex-direction: column;
+    padding: 12px 15px;
+    gap: 12px;
+  }
+
+  .logo img {
+    height: 45px;
+  }
+
+  .logo h1 {
+    font-size: 16px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hero {
+    padding: 50px 15px;
+  }
+
+  .hero h2 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .category-grid {
+    flex-direction: column;
+  }
+
+  .carousel {
+    padding: 30px 10px;
+  }
+
+  .slide img {
+    height: 180px;
+  }
+
+  .slide h1 {
+    font-size: 20px;
+  }
+
+  .slide p {
+    font-size: 14px;
+  }
+
+  .page-title h2 {
+    font-size: 24px;
+  }
+}
+
+
+/* Phones & small tablets */
+@media (max-width: 768px) {
+
+  .header {
+    flex-direction: column;
+    padding: 15px 20px;
+    gap: 15px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .hero h2 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .featured,
+  .why-us,
+  .categories,
+  .products,
+  .offers,
+  .buying-info,
+  .accessories,
+  .about-section,
+  .values,
+  .mission-vision,
+  .contact-info,
+  .contact-form,
+  .location {
+    padding: 30px 20px;
+  }
+
+  .category-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category-grid a,
+  .category-item {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .carousel {
+    height: auto;
+  }
+
+  .social-links {
+    flex-wrap: wrap;
+  }
+}
+
+
+/* Tablets & small laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .header {
+    padding: 16px 30px;
+  }
+
+  .hero {
+    padding: 80px 30px;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 17px;
+  }
+
+  .product-grid {
+    gap: 25px;
+  }
+
+  .slide img {
+    height: 260px;
+  }
+
+  .page-title h2 {
+    font-size: 34px;
+  }
+}
+
+
+/* Laptops & desktops */
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+  .hero h2 {
+    font-size: 38px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .page-title h2 {
+    font-size: 40px;
+  }
+}
+
+
+/* Large screens & TVs */
+@media (min-width: 1441px) {
+
+  body {
+    font-size: 18px;
+  }
+
+  .header {
+    padding: 20px 80px;
+  }
+
+  .hero {
+    padding: 120px 60px;
+  }
+
+  .hero h2 {
+    font-size: 44px;
+  }
+
+  .hero p {
+    font-size: 20px;
+    max-width: 900px;
+  }
+
+  .featured,
+  .why-us,
+  .categories,
+  .products,
+  .offers,
+  .buying-info,
+  .accessories,
+  .about-section,
+  .values,
+  .mission-vision,
+  .contact-info,
+  .contact-form,
+  .location {
+    padding: 60px 100px;
+  }
+}
